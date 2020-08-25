@@ -22,12 +22,12 @@
     text-indent: 101%;
     overflow: hidden;
     white-space: nowrap;
-    background-image: url("C:/Users/zxc54/OneDrive/桌面/github/HexSchool/Week7/img/d’Perfume/d’Perfume@2x.png");
+    background-image: url(https://github.com/asd54035403/Week7/blob/master/img/d%E2%80%99Perfume/d%E2%80%99Perfume@2x.png?raw=true);
     background-repeat: no-repeat;
     background-size: contain;
 }
 .board{
-    background-image: url("C:/Users/zxc54/OneDrive/桌面/github/HexSchool/Week7/img/board/board-lg.png");
+    background-image: url(https://github.com/asd54035403/Week7/blob/master/img/board/board-lg.png?raw=true);
     background-size: cover;
     height: 870px;
     @include pad(){
@@ -43,7 +43,7 @@
     }
 }
 .subscribe{
-    background-image: url("C:/Users/zxc54/OneDrive/桌面/github/HexSchool/Week7/img/subscribe/subscribe-sm.png");
+    background-image: url(https://github.com/asd54035403/Week7/blob/master/img/subscribe/subscribe-sm.png?raw=true);
     background-size: cover;
     height: 600px;
     @include pad(){
