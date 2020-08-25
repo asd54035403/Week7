@@ -11110,6 +11110,7 @@ a.text-dark:hover, a.text-dark:focus {
 *::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: Microsoft JhengHei;
 }
 
 .logo {
