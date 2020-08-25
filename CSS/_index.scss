@@ -1,0 +1,24 @@
+.index_card{
+    width: 20rem;
+    a{
+        font-size: $font-size-sm;
+    }
+    @include pad(){
+        width: 100%;
+    }
+
+}
+.sold-out{
+     position: relative; 
+    img{
+      -webkit-filter: contrast(40%); /* Safari */
+        filter: contrast(40%);  
+       
+    }
+    h3{
+        position: absolute;
+        top:50%; 
+        left:35%;
+    }
+    
+}

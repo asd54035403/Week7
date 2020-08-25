@@ -1,0 +1,73 @@
+@mixin pad {
+    @media(max-width: 768px){
+        @content
+    }
+}
+@mixin desktop {
+    @media(max-width: 992px){
+        @content
+    }
+}
+
+@include pad(){
+    .rwd-hide{
+          display: none;
+    }
+}
+
+*,*::before,*::after{
+    box-sizing:border-box;   
+}
+.logo{
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    background-image: url("C:/Users/zxc54/OneDrive/桌面/github/HexSchool/Week7/img/d’Perfume/d’Perfume@2x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.board{
+    background-image: url("C:/Users/zxc54/OneDrive/桌面/github/HexSchool/Week7/img/board/board-lg.png");
+    background-size: cover;
+    height: 870px;
+    @include pad(){
+        background-position: 25% 50%;
+    }
+    p{
+        font-size: $font-size-lg;
+    }
+    button{
+
+        border: 1px solid $white ;
+        color: $white;
+    }
+}
+.subscribe{
+    background-image: url("C:/Users/zxc54/OneDrive/桌面/github/HexSchool/Week7/img/subscribe/subscribe-sm.png");
+    background-size: cover;
+    height: 600px;
+    @include pad(){
+        background-position: 50% 50%;
+        margin-bottom: 0;
+    }
+    
+    ::placeholder {
+        color: $dark;
+        font-size: 1em;
+    }
+    form{
+       width: 345px; 
+    }
+}
+
+.footer{
+    img {
+        filter: brightness(100);
+    }
+    span{
+        font-size:$font-size-sm;
+        
+    }
+}
+
+
